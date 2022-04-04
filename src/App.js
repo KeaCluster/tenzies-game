@@ -47,9 +47,8 @@ function App() {
   }
 
   const btnHandler = () => {
-    !tenzies ?
-      rollDice() :
-      setDice(allNewDice()); setTenzies(false)
+    !tenzies ? 
+      rollDice() : setDice(allNewDice()); setTenzies(false)
   }
 
   const diceElements = dice.map(
@@ -77,3 +76,9 @@ function App() {
 }
 
 export default App;
+
+
+// To do list
+// Track # of rolls
+// Track game time
+
