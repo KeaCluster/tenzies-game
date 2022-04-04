@@ -4,8 +4,8 @@ Default scripts
 
 ## Some added packages
 
--nanoid
--react-confetti
+- nanoid
+- react-confetti
 
 ## Available Scripts
 
